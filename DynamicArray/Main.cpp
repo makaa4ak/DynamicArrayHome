@@ -19,7 +19,7 @@ void main()
 	cout << endl;
 
 
-	//resize
+	
 	int userNum;
 	cout << "How many cells should we add?/ ";
 	cin >> userNum;
@@ -28,19 +28,19 @@ void main()
 	rezult.Output();
 	cout << endl;
 
-	//sort
+	
 	rezult.Sort();
 	cout << "Sort result: " << endl;
 	rezult.Output();
 	cout << endl;
 
-	//search
+
 	int userElement;
 	cout << "Enter number: ";
 	cin >> userElement;
 	cout << "Index: " << rezult.Search(userElement) << endl<<endl;
 
-	//reverse
+
 	rezult.Reverse();
 	cout << "Reverse Result: " << endl;
 	rezult.Output();
