@@ -99,7 +99,7 @@ void DynamicArray::Reverse()
 	{
 		for (int j = 0; j < size - i - 1; j++)
 		{
-			if (j < j + 1)		//if the index of the left number is smaller, then swap places
+			if (j < j + 1)		
 			{
 				swap(ptr[j], ptr[j + 1]);
 			}
